@@ -1,0 +1,107 @@
+.together-wrapper {
+    margin-bottom: 60px;
+}
+.together-title {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.together {
+  width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+}
+.together-products {
+  width: 70%;
+}
+.together-products__item {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  &:first-child {
+    border-bottom: 1px solid #c4c4c4;
+  }
+  &:last-child {
+    background: rgba(196, 196, 196, 0.2);
+  }
+}
+.together-product {
+  display: flex;
+  align-items: center;
+}
+.together-product__img {
+  width: 184px;
+  margin-right: 30px;
+}
+.together-product__img img {
+  display: block;
+  width: 100%;
+}
+.together-product__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.together-product__price {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #b0b8c2;
+}
+.together-buy {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-left: 1px solid #c4c4c4;
+}
+.together-buy__benefit {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 33px;
+  color: #5a5a5a;
+  margin-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+}
+.together-buy__price {
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+  line-height: 33px;
+  color: #f7bc25;
+  margin-bottom: 20px;
+}
+.together-buy__btn {
+  display: block;
+  width: 285px;
+  text-align: center;
+  padding: 10px 0 11px 0;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.2em;
+  font-family: "Oswald", sans-serif;
+  background: linear-gradient(
+    212.95deg,
+    rgba(247, 188, 37, 0.4) 5.9%,
+    #f7bc25 45.25%,
+    rgba(247, 188, 37, 0.5) 81.46%
+  );
+  border-radius: 50px;
+}
+.together-mobil-wrapper {
+  display: none;
+}

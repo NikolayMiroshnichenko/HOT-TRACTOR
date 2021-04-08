@@ -1,0 +1,404 @@
+@media (max-width: 1367px) {
+  .container {
+    width: 1170px;
+  }
+  .main-first {
+    width: 700px;
+  }
+  .main-second {
+    width: 400px;
+  }
+  .description-item {
+    width: 750px;
+  }
+  .reviews-container {
+    width: 540px;
+  }
+  .together {
+    width: 100%;
+  }
+}
+@media (max-width: 1169px) {
+  .container {
+    width: 968px;
+  }
+  .main-first {
+    width: 600px;
+  }
+  .main-second {
+    width: 340px;
+  }
+  .description-item {
+    width: 600px;
+  }
+  .description-layout {
+    width: 340px;
+  }
+  .reviews-container {
+    width: 540px;
+  }
+  .together-buy__btn {
+    width: 260px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 967px) {
+  body {
+    background-image: none;
+  }
+  .container {
+    width: 640px;
+  }
+  .main-wrapper {
+    padding-bottom: 40px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .main-first {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .slider-container {
+    flex-direction: column-reverse;
+  }
+  .slick {
+    width: 100%;
+  }
+  .slick-nav .slick-item {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .slick-nav {
+    width: 100%;
+    height: 60px;
+  }
+  .slick .slick-item {
+    margin-bottom: 20px;
+  }
+  .slick .slick-item img {
+    height: 460px;
+    object-fit: cover;
+  }
+  .slider-top {
+    justify-content: flex-start;
+  }
+  .slider-top__item {
+    max-width: 80px;
+  }
+  .main-second {
+    width: 100%;
+  }
+  .product-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .product-btn__item {
+    width: 48%;
+  }
+  .product-bottom {
+    width: 100%;
+  }
+  .description-layout {
+    width: 100%;
+    position: static;
+  }
+  .unions-wrapper::before {
+    display: none;
+  }
+  .unions-list {
+    display: flex;
+  }
+  .unions-list__item {
+    position: relative;
+    width: 25%;
+    height: auto;
+    padding: 0 15px;
+    flex-direction: column;
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid #c4c4c4;
+    &:last-child {
+      border-right: 1px solid transparent;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      left: 50%;
+      top: 50%;
+      width: 66px;
+      height: 74px;
+      transform: translate(-50%, -50%);
+      background-image: url(../img/union.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  .unions-list__img {
+    margin-right: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  .unions-list__text span {
+    font-size: 12px;
+  }
+  .history {
+    margin-bottom: 40px;
+  }
+  .description-item {
+    width: 100%;
+  }
+  .reviews-container {
+    width: 430px;
+  }
+  .together-product__title {
+    font-size: 14px;
+  }
+  .together-product__img {
+    width: 120px;
+  }
+  .together-product__price {
+    font-size: 18px;
+  }
+  .together-products {
+    width: 65%;
+  }
+  .together-buy {
+    width: 35%;
+  }
+  .together-buy__benefit {
+    font-size: 16px;
+  }
+  .together-buy__price {
+    font-size: 30px;
+  }
+  .together-buy__btn {
+    width: 80%;
+  }
+  .together-buy__btn span {
+    display: none;
+  }
+  .slick-arrow {
+    position: relative;
+  }
+  .slick-next,
+  .slick-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    font-size: 0;
+    outline: none;
+    background: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .slick-prev {
+    left: 5px;
+    background-image: url(../img/left.svg);
+    
+  }  
+  .slick-next {
+    right: 5px;
+    background-image: url(../img/right.svg);
+
+  } 
+}
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+  .slick .slick-item img {
+    height: 222px;
+  }
+  .main-first {
+    margin-bottom: 0;
+  }
+  .main-title {
+    font-size: 20px;
+  }
+  .total-wrapper,
+  .main-price {
+    display: inline-block;
+  }
+  .main-price {
+    margin-right: 20px;
+  }
+  .price-discound {
+    font-size: 14px;
+  }
+  .price {
+    font-size: 18px;
+  }
+  .product-code,
+  .total-wrapper__text {
+    display: none;
+  }
+  .total-btn {
+    width: 32px;
+    height: 32px;
+  }
+  .total-btn.minus {
+    font-size: 30px;
+  }
+  .total-btn.plus {
+    font-size: 24px;
+  }
+  .product-btn {
+    flex-direction: column;
+  }
+  .product-btn__item {
+    width: 100%;
+  }
+  .description-wrapper {
+    padding: 20px 0;
+  }
+  .unions-list {
+    display: block;
+  }
+  .unions-list__item {
+    width: 100%;
+    flex-direction: row;
+    padding: 0;
+    border-right: none;
+    border-bottom: 1px solid #c4c4c4;
+    &::before {
+      display: none;
+    }
+  }
+  .unions-list__img {
+    width: 80px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  .unions-list__img img {
+    text-align: center;
+  }
+  .unions-wrapper {
+    &::before {
+      display: block;
+    }
+  }
+  .history {
+    margin-bottom: 20px;
+  }
+  .description-title {
+    margin-bottom: 20px;
+  }
+  .specifications-item {
+    flex-direction: column;
+  }
+  .specifications-item__description,
+  .specifications-item__title {
+    width: 100%;
+  }
+  .description-item {
+    margin-bottom: 20px;
+  }
+  .reviews {
+    flex-direction: column;
+  }
+  .reviews-container {
+    width: 100%;
+  }
+  .reviews-list {
+    margin-bottom: 0;
+  }
+  .reviews-list__text {
+    padding-left: 0;
+  }
+  .reviews-btn {
+    margin: 0 auto;
+  }
+  .together-wrapper {
+    display: none;
+  }
+  .together-mobil-wrapper {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .together-mobill {
+    width: 100%;
+  }
+  .together-mobill {
+    position: relative;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+  }
+  .together-mobill-top {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #c4c4c4;
+  }
+  .together-mobill__img {
+    width: 40%;
+  }
+  .together-mobill__img img {
+    display: block;
+    width: 100%;
+  }
+  .together-mobill__plus {
+    font-size: 40px;
+    color: #b0b8c2;
+    font-weight: bold;
+    margin: 0 20px;
+  }
+  .together-mobill .together-mobill-product {
+    display: none;
+    padding: 20px;
+    border-bottom: 1px solid #c4c4c4;
+
+    &:last-child {
+      background: #f3f3f3;
+    }
+  }
+  .together-mobill.active .together-mobill-product {
+    display: block;
+  }
+  .together-mobill-product__title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 12px;
+    color: #5e5e5e;
+    margin-bottom: 10px;
+  }
+  .together-mobill-product__name {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+  }
+  .together-mobill-product__price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #b0b8c2;
+  }
+  .together-buy {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-left: none;
+  }
+  .together-mobill .together-buy__btn {
+    display: none;
+  }
+  .together-mobill.active .together-buy__btn {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .together-buy__button {
+    background: transparent;
+    outline: none;
+    border: none;
+    transform: rotate(180deg);
+  }
+}

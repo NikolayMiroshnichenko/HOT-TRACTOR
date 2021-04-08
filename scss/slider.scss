@@ -1,0 +1,29 @@
+.slider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slick {
+    width: 85%;
+}
+.slick-nav {
+    position: relative;
+    width: 78px;
+    box-sizing: border-box;
+}
+.slick-item {
+    position: relative;
+    box-sizing: border-box;
+    outline: none !important;
+    cursor: pointer;
+}
+.slick-item img {
+    display: block;
+    width: 100%;
+}
+.slick-nav .slick-item {
+    margin-bottom: 10px;
+}
+.slick-nav .slick-current {
+    border: 1px solid #F7BC25 !important;
+}
