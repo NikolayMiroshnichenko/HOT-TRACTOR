@@ -32,3 +32,15 @@ $(".slick-nav").slick({
     },
   ],
 });
+
+(function () {
+  if (window.matchMedia("(max-width: 767px)").matches) {
+    $(".js-header-bottom").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: false,
+      dots: true,
+    });
+  }
+})();

@@ -46,6 +46,18 @@
   body {
     background-image: none;
   }
+  .header-bottom__text {
+    font-size: 10px;
+  }
+  .header-bottom__item {
+    width: 22%;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+  .header-bottom__item:before {
+    width: 20px;
+    height: 20px;
+  }
   .container {
     width: 640px;
   }
@@ -213,6 +225,17 @@
 @media (max-width: 767px) {
   .container {
     width: 90%;
+  }
+  .header-bottom__item {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .header-bottom__item::before {
+    display: none;
+  }
+  .header-bottom__text {
+    font-size: 14px;
   }
   .slick .slick-item img {
     height: 222px;

@@ -24,6 +24,28 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
+    <div class="header-bottom-wrapper">
+      <div class="container">
+        <ul class="header-bottom js-header-bottom">
+          <li class="header-bottom__item">
+            <p class="header-bottom__text">
+              <span>Бесплатная доставка</span> для заказов от $100
+            </p>
+          </li>
+          <li class="header-bottom__item">
+            <p class="header-bottom__text">
+              <span>Скидка 25%</span> на первый заказ по коду: НОВЫЙ25
+            </p>
+          </li>
+          <li class="header-bottom__item">
+            <p class="header-bottom__text"><span>пригласите друга</span> получите скидку</p>
+          </li>
+          <li class="header-bottom__item">
+            <p class="header-bottom__text"><span>новые</span> модели</p>
+          </li>
+        </ul>
+      </div>
+    </div>
     <section class="main-wrapper">
       <div class="container">
         <div class="main">
@@ -523,7 +545,7 @@
             <p class="together-buy__price">$ 25.95</p>
             <a href="#" class="together-buy__btn">купить</a>
             <button class="together-buy__button">
-              <img src="img/arrow.svg" alt="">
+              <img src="img/arrow.svg" alt="" />
             </button>
           </div>
         </div>
@@ -542,11 +564,10 @@
     <script>
       const btn = document.querySelector(".together-buy__button");
       const wrapper = document.querySelector(".together-mobill");
-       
 
       btn.addEventListener("click", () => {
         wrapper.classList.toggle("active");
-      })
+      });
     </script>
   </body>
 </html>
